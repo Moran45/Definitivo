@@ -1,8 +1,4 @@
-import Linked from '../../5es/linked5es.js'
-function Node(data) {//constructor
-  this.data = data
-  this.next = null
-}
+import { Linked, Node } from '../../../../camh/linked/node5es.js'
 let n1 = new Node('a')
 let n2 = new Node('b')
 
